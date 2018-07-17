@@ -294,10 +294,10 @@ Four different ways to create multicolumn layouts
 
 <!-- Use different images -->
 <picture>
-	<source srcset="img_smallflower.jpg" media="(max-width: 600px)">
-	<source srcset="img_flowers.jpg" media="(max-width: 1500px)">
-	<source srcset="flowers.jpg">
-	<img src="img_smallflower.jpg" alt="Flowers">
+  <source srcset="img_smallflower.jpg" media="(max-width: 600px)">
+  <source srcset="img_flowers.jpg" media="(max-width: 1500px)">
+  <source srcset="flowers.jpg">
+  <img src="img_smallflower.jpg" alt="Flowers">
 </picture>
 
 <!-- Responsive Text Size with vw -->
@@ -306,20 +306,20 @@ Four different ways to create multicolumn layouts
 <!-- Use Media Queries to set different style -->
 <style>
 .left, .right {
-	float: left;
-	width: 20%; /* The width is 20%, by default */
+  float: left;
+  width: 20%; /* The width is 20%, by default */
 }
 
 .main {
-	float: left;
-	width: 60%; /* The width is 60%, by default */
+  float: left;
+  width: 60%; /* The width is 60%, by default */
 }
 
 /* Use a media query to add a breakpoint at 800px: */
 @media screen and (max-width: 800px) {
 .left, .main, .right {
-	width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
-	}
+  width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
 }
 </style>
 
@@ -355,63 +355,63 @@ Four different ways to create multicolumn layouts
 ### Form
 ```html
 <form action="" method="get" target="blank_">
-	First name:<br>
+  First name:<br>
   <input type="text" name="firstname"><br>
 
-	<input type="radio" name="gender" value="male" checked> Male<br>
+  <input type="radio" name="gender" value="male" checked> Male<br>
 
-	<input type="submit" value="Submit">
+  <input type="submit" value="Submit">
 
   <fieldset>
-		<legend>Personal information:</legend>
-		First name:<br>
-		<input type="text" name="firstname" value="Mickey"><br>
-		Last name:<br>
-		<input type="text" name="lastname" value="Mouse"><br><br>
-		<input type="submit" value="Submit">
-	</fieldset>
+    <legend>Personal information:</legend>
+    First name:<br>
+    <input type="text" name="firstname" value="Mickey"><br>
+    Last name:<br>
+    <input type="text" name="lastname" value="Mouse"><br><br>
+    <input type="submit" value="Submit">
+  </fieldset>
 
-	<select name="cars" size="1" multiple>
-		<!-- use size to specify the number of visible values -->
-		<!-- use multiple for multi choices -->
-		<option value="volvo">Volvo</option>
-		<option value="saab" selected>Saab</option>
-	</select>
+  <select name="cars" size="1" multiple>
+    <!-- use size to specify the number of visible values -->
+    <!-- use multiple for multi choices -->
+    <option value="volvo">Volvo</option>
+    <option value="saab" selected>Saab</option>
+  </select>
 
-	<textarea name="message" rows="10" cols="30">
+  <textarea name="message" rows="10" cols="30">
   The cat was playing in the garden.
   </textarea>
 
-	<textarea name="message" style="width:200px; height:600px">
-	The cat was playing in the garden.
-	</textarea>
+  <textarea name="message" style="width:200px; height:600px">
+  The cat was playing in the garden.
+  </textarea>
 
-	<button type="button" onclick="alert('Hello World!')">Click Me!</button> <!-- always specify type -->
+  <button type="button" onclick="alert('Hello World!')">Click Me!</button> <!-- always specify type -->
 
-	<!-- drop down munu -->
+  <!-- drop down munu -->
   <input list="browsers">
-	<datalist id="browsers">
-		<option value="Internet Explorer">
-		<option value="Firefox">
-		<option value="Chrome">
-		<option value="Opera">
-		<option value="Safari">
-	</datalist>
+  <datalist id="browsers">
+    <option value="Internet Explorer">
+    <option value="Firefox">
+    <option value="Chrome">
+    <option value="Opera">
+    <option value="Safari">
+  </datalist>
 
-	<input type="range"  id="a" name="a" value="50">
-	<input type="number" id="b" name="b" value="50">
-	<output name="x" for="a b"></output>
+  <input type="range"  id="a" name="a" value="50">
+  <input type="number" id="b" name="b" value="50">
+  <output name="x" for="a b"></output>
 
-	<select>
+  <select>
     <optgroup label="Swedish Cars">
-			<option value="volvo">Volvo</option>
-			<option value="saab">Saab</option>
-		</optgroup>
-		<optgroup label="German Cars">
-			<option value="mercedes">Mercedes</option>
-			<option value="audi">Audi</option>
-		</optgroup>
-		</select>
+      <option value="volvo">Volvo</option>
+      <option value="saab">Saab</option>
+    </optgroup>
+    <optgroup label="German Cars">
+      <option value="mercedes">Mercedes</option>
+      <option value="audi">Audi</option>
+    </optgroup>
+    </select>
 </form>
 ```
 
@@ -422,7 +422,7 @@ Four different ways to create multicolumn layouts
 <input type="submit" value="Submit">
 <input type="reset">  <!-- reset all form values -->
 <input type="radio" name="gender" value="male" checked> Male
-<input type="checkbox" name="vehicle2" value="Car"> I have a car 
+<input type="checkbox" name="vehicle2" value="Car"> I have a car
 <input type="button" onclick="alert('Hello World!')" value="Click Me!">
 <input type="color" name="favcolor">
 <input type="date" name="bday">
@@ -439,8 +439,8 @@ Four different ways to create multicolumn layouts
 <input type="image" src="img_submit.gif" alt="Submit" width="48" height="48">
 <input list="browsers">
 <datalist id="browsers">
-	<option value="Internet Explorer">
-	<option value="Firefox">
+  <option value="Internet Explorer">
+  <option value="Firefox">
 </datalist>
 ```
 
@@ -467,6 +467,3 @@ Four different ways to create multicolumn layouts
 * height
 * width
 * multiple
-
-
-
