@@ -1,6 +1,6 @@
 ## Cheat Sheet
-* [tmux](tmux-cheatsheet.md)
-* html5
+* [tmux cheatsheet](tmux-cheatsheet.md)
+* [html5 cheatsheet](html5-cheatsheet.md)
 * css3
 * bash
 * js
