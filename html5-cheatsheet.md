@@ -264,7 +264,7 @@ li a:hover {
 ```
 
 ### Layout
-![html layout image](img_sem_elements.gif)
+![html layout image](imgs/html/img_sem_elements.gif)
 
 ```html
 * <header> - Defines a header for a document or a section
@@ -341,7 +341,7 @@ Four different ways to create multicolumn layouts
 
 &#entity_number;
 
-![html entities](html_entities.png)
+![html entities](imgs/html/html_entities.png)
 
 ### Symbol Entities
 [Full Math Reference](https://www.w3schools.com/charsets/ref_utf_math.asp)

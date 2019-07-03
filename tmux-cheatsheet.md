@@ -8,6 +8,11 @@ In tmux, press Ctrl-b then other key.
 ## Setting
 .tmux.conf
 ```
+# Set bind key to Ctrl-a, default is Ctrl-b
+set -g prefix C-a
+bind C-a send-prefix
+unbind C-b
+
 setw -g mode-keys vi
 set-option -sg escape-time 10
 set-option -g default-terminal "screen-256color"
@@ -29,6 +34,8 @@ bind C-l select-pane -R     # Switch to Pane Right
 
 setw -g monitor-activity on      # Activity Alerts
 set -g visual-activity on
+
+# Set status line color
 set -g status-fg white           # Status line Colors
 set -g status-bg black
 ```
